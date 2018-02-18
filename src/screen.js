@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { View, StyleSheet, requireNativeComponent } from 'react-native';
 import throttle from 'throttle';
-import accessibility from '../accessibility';
+import accessibility from './accessibility';
 
 class Screen extends Component {
     _getInitialState = (props) => {
         return {
-            accessible: this.s(props)
+            accessible: this.getAccessibility(props)
         };
     }
 

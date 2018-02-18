@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Touchable from '../touchable';
-import accessibility from '../accessibility';
+import Touchable from './touchable';
+import accessibility from './accessibility';
 
 const NavBarButton = (props) => {
     const { navigationState, routeKey } = props;
@@ -15,7 +15,7 @@ const NavBarButton = (props) => {
 NavBarButton.propTypes = {
     ...Touchable.propTypes,
     routeKey: PropTypes.string.isRequired,
-    navigationState: PropTypes.object.isRequired
+    navigationState: PropTypes.object
 };
 NavBarButton.defaultProps = {
     ...Touchable.defaultProps
