@@ -1,0 +1,10 @@
+{
+    "name": "dpad-example",
+    "version": "0.0.1",
+    "dependencies": {
+        "react": "16.2.0",
+        "react-native": "0.53.0",
+        "react-navigation": "1.0.3",
+        "react-native-dpad": "git+ssh://git@github.com/NikolaBorislavovHristov/react-native-dpad.git#48aaa3715be9428cc05a8fc8b6bde8d42b533f2f"
+    }
+}
