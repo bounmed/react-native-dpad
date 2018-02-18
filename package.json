@@ -1,0 +1,14 @@
+{
+    "name": "react-native-dpad",
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NikolaBorislavovHristov/react-native-dpad.git"
+    },
+    "author": "Nikola Hristov",
+    "license": "MIT",
+    "dependencies": {
+        "throttle": "component/throttle"
+    }
+}
